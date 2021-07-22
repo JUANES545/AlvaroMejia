@@ -1,4 +1,4 @@
-# AlvaroMejia Channel
+# Álvaro Mejía Channel
 
 - Youtube https://www.youtube.com/channel/UCU7AtkCp0P52qF3Uc58cdeg
 
