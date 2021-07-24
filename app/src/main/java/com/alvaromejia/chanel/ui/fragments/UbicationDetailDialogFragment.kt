@@ -35,7 +35,7 @@ class UbicationDetailDialogFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_ubication_detail_dialog, container, false)
+        return inflater.inflate(R.layout.fragment_location_detail_dialog, container, false)
     }
 
     companion object {
