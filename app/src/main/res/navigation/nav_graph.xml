@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
 
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.alvaromejia.chanel.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_scheduleFragment"
+            app:destination="@id/navScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navScheduleFragment"
+        android:name="com.alvaromejia.chanel.ui.fragments.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_scheduleFragment_to_speakersFragment"
+            app:destination="@id/navSpeakersFragment" />
+        <action
+            android:id="@+id/action_navScheduleFragment_to_scheduleDetailFragmentDialog"
+            app:destination="@id/scheduleDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navSpeakersFragment"
+        android:name="com.alvaromejia.chanel.ui.fragments.SpeakersFragment"
+        android:label="fragment_speakers"
+        tools:layout="@layout/fragment_speakers" >
+        <action
+            android:id="@+id/action_speakersFragment_to_locationFragment"
+            app:destination="@id/navMapFragment" />
+        <action
+            android:id="@+id/action_navSpeakersFragment_to_speakersDetailFragmentDialog"
+            app:destination="@id/speakersDetailFragmentDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navMapFragment"
+        android:name="com.alvaromejia.chanel.ui.fragments.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" >
+        <action
+            android:id="@+id/action_navMapFragment_to_locationDetailFragmentDialog"
+            app:destination="@id/locationDetailFragmentDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/speakersDetailFragmentDialog"
+        android:name="com.alvaromejia.chanel.ui.fragments.SpeakersDetailDialogFragment"
+        android:label="SpeakerDetailFragmentDialog"
+        tools:layout="@layout/fragment_speakers_detail_dialog" />
+
+    <dialog
+        android:id="@+id/scheduleDetailFragmentDialog"
+        android:name="com.alvaromejia.chanel.ui.fragments.ScheduleDetailDialogFragment"
+        android:label="ScheduleDetailFragmentDialog"
+        tools:layout="@layout/fragment_schedule_detail_dialog" />
+
+    <dialog
+        android:id="@+id/locationDetailFragmentDialog"
+        android:name="com.alvaromejia.chanel.ui.fragments.LocationDetailDialogFragment"
+        android:label="LocationDetailFragmentDialog"
+        tools:layout="@layout/fragment_location_detail_dialog" />
 </navigation>
