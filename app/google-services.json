@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "182724878223",
+    "project_id": "alvaromejiachannel",
+    "storage_bucket": "alvaromejiachannel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182724878223:android:a4bc8535e388fd3e27b5fa",
+        "android_client_info": {
+          "package_name": "com.alvaromejia.chanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182724878223-cpvc92e48b65e8g05dgce9g9fl5ahqti.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alvaromejia.chanel",
+            "certificate_hash": "1bf953f7fe3e05f341d25ed23c7afb539bcf8dfb"
+          }
+        },
+        {
+          "client_id": "182724878223-7h7vdf41klvg2i0j5pct2nhr1v2709v6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEUwRmo2QUZx1cYISQ8NLFL8T6McUsig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182724878223-7h7vdf41klvg2i0j5pct2nhr1v2709v6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
