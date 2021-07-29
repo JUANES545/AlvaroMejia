@@ -29,6 +29,7 @@
             android:id="@+id/fraContent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_above="@id/bnvMenu"
             app:navGraph="@navigation/nav_graph"
             app:defaultNavHost="true"/>
