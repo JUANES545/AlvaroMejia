@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //to create many wps
+
 
         val jsonArr = JSONArray("[\n" +
                 "            {\n" +
