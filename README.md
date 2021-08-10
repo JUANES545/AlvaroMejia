@@ -1,4 +1,4 @@
-# Álvaro Mejía Channel
+## Álvaro Mejía Channel
 
 <a href="https://www.youtube.com/channel/UCU7AtkCp0P52qF3Uc58cdeg" target="_blank"><img src="https://img.shields.io/badge/YouTube_Álvaro_Mejía_Mejía-EA4335?style=flat-square&logo=YouTube&logoColor=white"/></a>
 
